@@ -3,7 +3,7 @@ import "./App.css";
 
 const CAT_FACT_API_URL = "https://catfact.ninja/fact";
 const CAT_URL_BASEURL = "https://cataas.com/cat/";
-const CAT_URL_PROPERTIES = "?fontSize=50&fontColor=red";
+const CAT_URL_PROPERTIES = "?fontSize=50&fontColor=orange";
 
 function App() {
   const [fact, setFact] = useState();
@@ -44,7 +44,8 @@ function App() {
 
   return (
     <main>
-      <h1>helo</h1>
+      <h1>Random cat facts!</h1>
+      <h2>#{parseInt(Math.random() * 123)}</h2>
       {fact && <p>{fact}</p>}
       {imageID && (
         <img
