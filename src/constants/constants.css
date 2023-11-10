@@ -1,0 +1,15 @@
+:root {
+  --dark: #31344b;
+  --light: #e6e7ee;
+  --shadow1: #b8b9be;
+  --shadow2: #fff;
+  --placeholder: hsl(231, 17%, 75%);
+}
+
+[data-dark-mode] {
+  --light: #262626;
+  --dark: hsl(233, 0%, 92%);
+  --shadow1: #151515;
+  --shadow2: #373737;
+  --placeholder: hsl(231, 0%, 75%);
+}
