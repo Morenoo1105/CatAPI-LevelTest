@@ -1,6 +1,6 @@
 # Prueba técnica de React (Extendida)
 
-![Resultado final](https://morenno.net/demoWebs/img_thumbnails/CatAPI.png)
+![Resultado final](https://morenno.net/demoWebs/img_thumbnails/CatAPInew.png)
 
 ## Enunciado
 
