@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://morenno.net/demoWebs/CatAPI",
+  base: "https://app.morenno.net/cats",
 });
